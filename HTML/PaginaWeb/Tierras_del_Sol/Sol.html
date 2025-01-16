@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIERRAS DEL SOL</title>
+    <link rel="icon" type="image/x-icon" href="/Web_Propia/icono.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(211, 202, 178);
+            margin: 0;
+        }
+
+        .grid-container {
+            display: grid , inline;
+            justify-items: center;
+            grid-template-areas:
+                "header header header header"
+                "main main main main"
+                "footer footer footer footer";
+            gap: 10px;
+        }
+
+        header {
+            grid-area: header;
+            padding-top: 10px;
+            background-color: rgb(196, 177, 128);
+            color: rgb(49, 35, 1);
+            text-align: center;
+            border-bottom: rgb(61, 51, 27) 5px solid;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(61, 51, 27);
+        }
+
+        nav a:hover {
+            background-color: rgb(226, 208, 160);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .imagen {
+            grid-area: main;
+            width: 50%;
+            max-width: 100%;
+            height: auto;
+            margin: 5px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .img-principal {
+            width: 100%;
+            max-height: 202px;
+        }
+
+        .introduccion {
+            grid-area: main;
+            background-color: rgb(172, 161, 135);
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        section {
+            grid-area: main;
+            background-color: rgb(172, 161, 135);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: rgb(61, 51, 27);
+            border-bottom: rgb(61, 51, 27) 2px solid;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: rgb(196, 177, 128);
+            border-top: rgb(61, 51, 27) 5px solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .icon {
+            float: right;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>LAS TIERRAS DEL SOL</h1>
+    </header>
+    <a href="mapa_sol.png" target="_blank"><img src="mapa.png" title="PULSE EL MAPA PARA VERLO COMPLETO" class="img-principal"></a>
+    <main>
+        <article class="introduccion">
+            <p>Las Tierras del Sol (Lands of the Sun en inglés) son un continente que se extendía al extremo este de
+                Arda durante la Primera y la Segunda Edad. Por su situación y extensión, era la contraparte de Aman, y
+                además, estaba totalmente despoblado.</p>
+            <p>Junto con las Tierras Oscuras, las Tierras del Sol son llamadas las Tierras Vacías, pues ninguna raza
+                libre habitaba en ellas.</p>
+        </article>
+        <section>
+            <h2>Geografía</h2>
+            <p>Las Tierras del Sol tenían una forma parecida a la de Aman, y se encontraba justo en la posición opuesta
+                del Reino Bendecido, aunque esto era así porque al principio Arda era simétrica. Limitaba al oeste con
+                el Mar Oriental, y al este con el Mar Circundante de Ekkaia. Poco más se sabe sobre la geografía de las
+                Tierras del Sol, pero se sabe que el continente se encontraba atravesado por una gran cordillera
+                montañosa llamada las Murallas del Sol. Su pico más alto era el monte Kalormë, que bien podía ser el
+                equivalente al monte Taniquetil, y más o menos a la altura de la mitad de la cordillera se encontraba el
+                paso de las Puertas de la Mañana, que permitía que la luz del sol pasase para iluminar Arda.</p>
+        </section>
+        
+    </main>
+    <main>
+        <div class="img">
+            <img src="Sol1.PNG" class="imagen"> 
+            <img src="Sol2.PNG" class="imagen">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Para ver las tierras que tiene el planeta Arda pulsa el icono
+            <a href="/Web_Propia/Arda/Arda.html" target="_blank"><img src="Icon.png" class="icon"></a>
+        </p>
+    </footer>
+</body>
+
+</html>

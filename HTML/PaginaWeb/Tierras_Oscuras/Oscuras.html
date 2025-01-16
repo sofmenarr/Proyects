@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIERRAS OSCURAS</title>
+    <link rel="icon" type="image/x-icon" href="/Web_Propia/icono.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(211, 202, 178);
+            margin: 0;
+        }
+
+        .grid-container {
+            display: grid , inline;
+            justify-items: center;
+            grid-template-areas:
+                "header header header header"
+                "main main main main"
+                "footer footer footer footer";
+            gap: 10px;
+        }
+
+        header {
+            grid-area: header;
+            padding-top: 10px;
+            background-color: rgb(196, 177, 128);
+            color: rgb(61, 51, 27);
+            text-align: center;
+            border-bottom: rgb(61, 51, 27) 5px solid;
+        }
+
+        .img-principal {
+            width: 100%;
+            max-height: 202px;
+        }
+
+        .imagen {
+            width: 50%;
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .introduccion {
+            grid-area: main;
+            background-color: rgb(172, 161, 135);
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        section {
+            grid-area: main;
+            background-color: rgb(172, 161, 135);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: rgb(61, 51, 27);
+            border-bottom: rgb(61, 51, 27) 2px solid;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: rgb(196, 177, 128);
+            border-top: rgb(61, 51, 27) 5px solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .icon {
+            float: right;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>LAS TIERRAS OSCURAS</h1>
+    </header>
+    <a href="mapa_oscura.png" target="_blank"><img src="mapa.png" title="PULSE EL MAPA PARA VERLO COMPLETO"
+            class="img-principal"></a>
+    <main>
+        <article class="introduccion">
+            <p>Las Tierras Oscuras es uno de los cuatro continentes principales de Arda, junto
+                con la Tierra Media, Aman y las Tierras del Sol. Se trata de una de las regiones menos conocidas de
+                Arda.
+            </p>
+            <p>Las Tierras Oscuras, junto con las Tierras del Sol, son las llamadas Tierras Vacías, puesto que no
+                habitaba ninguna raza inteligente en ellas.</p>
+        </article>
+        <section>
+            <h2>Geografía</h2>
+            <p> Se sitúan al sureste del Mar Oriental, alargándose de forma prolongada hacia el suroeste, llegando a
+                formar dos estrechos con un cabo al sureste de las tierras orientales de la Tierra Media, y con otro
+                cabo en el extremo sur del Lejano Harad. Las Tierras Oscuras llegan al extremo sur de Arda, llegando a
+                los límites del mar de Ekkaia. También se sabe que el continente se encontraba atravesado de sur a norte
+                por las Montañas Amarillas, y en él también se encontraban extensos bosques que bien podrían haber sido
+                junglas, debido a la latitud de las Tierras Oscuras, que se encuentran atravesadas por la Cintura de
+                Arda por la mitad norte. </p>
+        </section>
+        
+    </main>
+    <main>
+        <div class="img">
+            <img src="Oscura1.PNG" class="imagen"> 
+            <img src="Oscura2.PNG" class="imagen">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Para ver las tierras que tiene el planeta Arda pulsa el icono
+            <a href="/Web_Propia/Arda/Arda.html" target="_blank"><img src="Icon.png" class="icon"></a>
+        </p>
+    </footer>
+</body>
+
+</html>

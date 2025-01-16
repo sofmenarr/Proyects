@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMENOR</title>
+    <link rel="icon" type="image/x-icon" href="/Web_Propia/icono.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(211, 202, 178);
+            margin: 0;
+        }
+
+        .grid-container {
+            display: grid, inline;
+            justify-items: center;
+            grid-template-areas:
+                "header header header header"
+                "main main main main"
+                "footer footer footer footer";
+            gap: 10px;
+        }
+
+        header {
+            grid-area: header;
+            padding-top: 10px;
+            background-color: rgb(196, 177, 128);
+            color: rgb(61, 51, 27);
+            text-align: center;
+            border-bottom: rgb(61, 51, 27) 5px solid;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(61, 51, 27);
+        }
+
+        nav a:hover {
+            background-color: rgb(226, 208, 160);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .img-principal {
+            width: 100%;
+            max-height: 202px;
+        }
+
+        .imagen {
+            width: 50%;
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .introduccion {
+            grid-area: main;
+            background-color: rgb(172, 161, 135);
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        section {
+            grid-area: main;
+            background-color: rgb(172, 161, 135);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: rgb(61, 51, 27);
+            border-bottom: rgb(61, 51, 27) 2px solid;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: rgb(196, 177, 128);
+            border-top: rgb(61, 51, 27) 5px solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .icon {
+            float: right;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>LAS TIERRAS DE NUMENOR</h1>
+        <nav>
+            <ul>
+                <li><a href="#Arandor">Arandor</a></li>
+                <li><a href="#Orrostar">Orrostar</a></li>
+                <li><a href="#Forostar">Forostar</a></li>
+                <li><a href="#Andustar">Andustar</a></li>
+                <li><a href="#Eldalondë">Eldalondë</a></li>
+                <li><a href="#Hyarrostar">Hyarrostar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <a href="mapa_numenor.png" target="_blank"><img src="mapa.png" title="PULSE EL MAPA PARA VERLO COMPLETO"
+                class="img-principal" aria-placeholder="PULSA EL MAPA PARA VERLO COMPLETO"></a>
+        <aside class="introduccion">
+            <p>Númenor está dividida en seis regiones: las tierras alrededor de los cinco promontorios, cuyos
+                nombres corresponden al punto cardinal en que se sitúan (Forostar, Orrostar, Hyarrostar, Hyarnustar,
+                Andustar) y el territorio interior Mittalmar.</p>
+        </aside>
+        <section id="Arandor">
+            <h2>Arandor</h2>
+            <p>La tierra del Rey, también formaba parte de Mittalmar junto con la capital Armenelos y el
+                puerto Rómenna. Noirinan, un valle en la ladera meridional del Meneltarma era el "Valle de las
+                Tumbas
+                (Reales)". En Arandor vivía la mayor parte de la población. Por lo demás, Mittalmar era una región
+                cubierta de praderas y pastizales de ovejas. En Emerië se encontraba la casa de campo de la Reina
+                Erendis.</p>
+        </section>
+        <section id="Orrostar">
+            <h2>Orrostar (Tierras Orientales)</h2>
+            <p>Tenía un clima cálido y fresco; el sudoeste era tierra de cereales. Formada por el cabo situado al
+                este
+                de la isla. Era una región fria. La costa septentrional de Orrostar
+                estaba recorrida por una cadena montañosa. </p>
+        </section>
+        <section id="Forostar">
+            <h2>Forostar (Tierras Septentrionales)</h2>
+            <p>Era una región infértil con muchas rocas y pocos bosques. El
+                macizo montañoso se alzaba en riscos abruptos hacia el Cabo del Norte hasta el Sorontil ("Cuerno de
+                Águila"),cuyos tremendos acantilados cortaban el mar. Tar-Meneldur construyó allí el observatorio de
+                Elentírmo.
+            </p>
+        </section>
+        <section id="Andustar">
+            <h2>Andustar (Tierras Occidentales)</h2>
+            <p>También era una tierra infértil, pero con más bosques. Formada por un gran cabo situado al oeste de
+                la
+                isla. Estaba separada de Hyarnustar por la bahía de Eldanna, y limitaba al este con Mittalmar y
+                Forostar.
+            </p>
+            <p>
+                En esta región se encontraba la ciudad-puerto deAndúnië. Esta ciudad estaba gobernada por los
+                Señores de
+                Andünie, un linaje paralelo a la familia real de Númenor, del que descienden los reyes de Arnor y
+                Gondor. Amandil, padre de Elendil, fue el último Señor de Andúnië.</p>
+        </section>
+        <section id="Eldalondë">
+            <h2>La Bahía de Eldalondë</h2>
+            <p>Entre Andustar y Hyarnustar (Tierras Suroccidentales) reinaba un clima suave
+                y húmedo; la franja posterior se llamaba Nísimaldar, una región de fragantes árboles. El interior de
+                la parte suroccidental era cálido y fértil con muchos viñedos. En la costa meridional, llana y
+                arenosa,
+                se hallaban algunos pueblos de pescadores y una población algo mayor, Nindamos.</p>
+        </section>
+        <section id="Hyarrostar">
+            <h2>Hyarrostar (Tierras Australes)</h2>
+            <p>Poseía los bosques más amplios, que eran reforestados después de las grandes talas de árboles.
+                Formada
+                por un gran cabo situado al sudoeste de la isla. Estaba separada deAndustar por la Bahía de Eldanna,
+                y
+                de Hyarrostar por el río Siril. La región era montañosa en su parte suroeste y cálida en su parte
+                más
+                oriental. </p>
+        </section>
+
+    </main>
+    <main>
+        <div class="img">
+            <img src="Numenor1.PNG" class="imagen">
+            <img src="Numenor2.png" class="imagen">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Para ver las tierras que tiene el planeta Arda pulsa el icono
+            <a href="/Web_Propia/Arda/Arda.html" target="_blank"><img src="Icon.png" class="icon"></a>
+        </p>
+    </footer>
+</body>
+
+</html>

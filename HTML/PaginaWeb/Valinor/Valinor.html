@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALINOR</title>
+    <link rel="icon" type="image/x-icon" href="/Web_Propia/icono.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(211, 202, 178);
+            margin: 0;
+        }
+
+        .grid-container {
+            display: grid , inline;
+            justify-items: center;
+            grid-template-areas:
+                "header header header header"
+                "main main main main"
+                "footer footer footer footer";
+            gap: 10px;
+        }
+
+        header {
+            grid-area: header;
+            padding-top: 10px;
+            background-color: rgb(196, 177, 128);
+            color: rgb(61, 51, 27);
+            text-align: center;
+            border-bottom: rgb(61, 51, 27) 5px solid;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(61, 51, 27)
+        }
+
+        nav a:hover {
+            background-color: rgb(226, 208, 160);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .img-principal {
+            grid-area: main;
+            width: 100%;
+            max-height: 202px;
+        }
+
+        .imagen {
+            width: 50%;
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .introduccion {
+            background-color: rgb(172, 161, 135);
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        section {
+            grid-area: main;
+            background-color: rgb(172, 161, 135);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: rgb(61, 51, 27);
+            border-bottom: rgb(61, 51, 27) 2px solid;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: rgb(196, 177, 128);
+            border-top: rgb(61, 51, 27) 5px solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .icon {
+            float: right;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>LAS TIERRAS DE VALINOR</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Valmar">Valmar</a></li>
+                    <li><a href="#Alqualondë">Alqualondë</a></li>
+                    <li><a href="#Tirion">Tirion</a></li>
+                    <li><a href="#Avallónë">Avallónë</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <a href="mapa_valinor.png" target="_blank"><img src="mapa.png" title="PULSE EL MAPA PARA VERLO COMPLETO"
+                    class="img-principal"></a>
+
+            <article class="introduccion">
+                <p>Valinor (en Quenya Tengwar: reino de los Valar) es el reino de los Valar en Aman, el lugar al que se
+                    trasladaron desde Almaren cuando las dos Lámparas fueron destruidas debido a Melkor. Aquí fijaron su
+                    residencia los Valar y los Maia durante las siguientes edades.
+                </p>
+                <p>
+                    Los Eldar, aquellos elfos que habían
+                    aceptado la invitación de los Valar de vivir junto a ellos, tenían como destino Valinor. Asi, los
+                    Vanyar, los Noldor y los Teleri se asentaron en esta tierra. Sin embargo, algunos de los Eldar se
+                    desperdigaron por la tierra media, y en las siguientes edades del Sol, los supervivientes de los
+                    conflictos vividos en aquellas tierras fueron trasladandose poco a poco a Valinor, hasta abandonar
+                    por
+                    completo la Tierra Media. Solo los Avari y algunos pocos Eldar se quedaron. Algunos eldar, como los
+                    Noldor, llegaron a Valinor y la abandonaron en su mayoría para regresar a la Tierra Media, volviendo
+                    cientos de años después. </p>
+            </article>
+            <section id="Valmar">
+                <h2>Valmar</h2>
+                <p> Era la capital de Valinor y también la ciudad más grande del reino, donde habitaban la mayoría de
+                    los
+                    Valar y Maia y también los Vanyar. Estaba situada a los pies de Taniquetil. La ciudad estaba
+                    protegida
+                    por grandes muros de piedra blanca. En su interior había mansiones con cúpulas de plata y torres de
+                    oro.
+                    Tenía también una gran puerta dorada en su zona occidental, y unas grandes campanas de oro y plata.
+                </p>
+            </section>
+            <section id="Alqualondë">
+                <h2> Alqualondë</h2>
+                <p> Significa "Puerto de los Cisnes" de alqua "cisne" y londë "puerto encerrado en tierra", es una
+                    ciudad
+                    portuaria, capital de los elfos Falmari, los únicos elfos del clan de los Teleri en llegar a Aman.
+                    Está
+                    situada en las costas de Eldamar, en Valinor, un poco más al norte del Calarcirya. Fue fundada en el
+                    1162 E.A, cien años después de la llegada de los Falmari a Valinor. Se construyó con ayuda de los
+                    Noldor
+                    y era el principal puerto de las Tierras de Aman.</p>
+                <img src="">
+            </section>
+            <section id="Tirion">
+                <h2>Tirion</h2>
+                <p> Donde habitan los elfos Noldor. Fue la primera ciudad construida por los elfos en Valinor. Es una
+                    hermosa ciudad con balcones blancos, escaleras de cristal y sus pisos de piedras preciosas y de
+                    diamantes. En esta ciudad se encontraba la famosa Mindon Eldalieva, la Torre de Finwë, que en su
+                    cúspide
+                    lucía una hermosa lámpara de cristal, cuya luz podía divisarse desde la lejanía. Bajo la torre se
+                    encontraba una plaza que en su centro tenía sembrado el primer árbol blanco, nacido de un fruto de
+                    Telperion el Blanco, el árbol de plata de los Dos Árboles de Valinor.</p>
+            </section>
+            <section id="Avallónë">
+                <h2>Avallónë</h2>
+                <p> es una ciudad élfica, cuyo nombre en Quenya significa "La más cercana a Valinor". Está situada en la
+                    costa este de la isla de Tol Eressëa, la isla Solitaria, que se encuentra frente a las costas de
+                    Eldamar, en Valinor, en el continente de Aman. Se trata del mayor puerto y la mayor ciudad de la
+                    isla.
+                </p>
+                <p>La ciudad se caracterizaba por tener una alta torre blanca, construida a principios de la segunda
+                    edad
+                    por los recién llegados elfos que se asentaban en la ciudad, provenientes de la Tierra Media después
+                    de
+                    la Guerra de la Cólera. La torre era el lugar donde se guardaba la Palantir maestra y esta emitía un
+                    brillo, como un faro, visible desde el occidente de Númenor.</p>
+            </section>
+        </main>
+        <main>
+            <div class="img">
+                <img src="Valinor1.png" class="imagen">
+                <img src="Valinor2.png" class="imagen">
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Para ver las tierras que tiene el planeta Arda pulsa el icono
+                <a href="/Web_Propia/Arda/Arda.html" target="_blank"><img src="Icon.png" class="icon"></a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
