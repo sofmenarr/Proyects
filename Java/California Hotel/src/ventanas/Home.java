@@ -28,7 +28,7 @@ public class Home extends JFrame {
 	}
 
 	public Home() {
-		//iniciarBBDD();
+		iniciarBBDD();
 
 		// Crear el JFrame
 		setTitle("HOTEL CALIFORNIA");
