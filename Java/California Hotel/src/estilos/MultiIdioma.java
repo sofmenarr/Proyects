@@ -1219,7 +1219,7 @@ public class MultiIdioma {
 
 			// TEXTO EN LA VENTANA ACTIVIDADES
 			if (tipo.equalsIgnoreCase("TituloActividades")) {
-				texto = "Activities & Information";
+				texto = "<html>Activities &<br> Information<html>";
 			}
 			if (tipo.equalsIgnoreCase("EncabezadoActividades")) {
 			    texto = "ACTIVITIES TO DO:";
