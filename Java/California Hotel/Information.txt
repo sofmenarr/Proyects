@@ -1,0 +1,12 @@
+--------------------------------------------
+INFORMACIÓN DE LA CREACIÓN DE LA APP:
+--------------------------------------------
+Esta aplicación se ha creado utilizando la app de Eclipse para la parte visual y el
+funcionamiento de ella.
+La base de datos se ha creado utilizando la herramienta XAMPP, abriendo conexión de
+Apache y MySQL.
+
+--------------------------------------------
+FUNCIONAMIENTO DE LA APP: 
+--------------------------------------------
+(En proceso para documentar)
