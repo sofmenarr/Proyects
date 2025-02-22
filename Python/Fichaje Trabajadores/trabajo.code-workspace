@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "F:\\Estudios\\Visual Studio Code\\2ºDAM\\Interfaces\\trabajo\\entorno_virtual\\Scripts\\python.exe",
+		"python.terminal.activateEnvironment": true
+	}
+}
