@@ -1,3 +1,5 @@
+This document is a guide to installing a virtual environment and libraries for the project. 
+The document is in 'Spanish' and 'English', in case you don't know Spanish.
 --------------------------------------
 INTRODUCCIÓN (ESPAÑOL):
 --------------------------------------
