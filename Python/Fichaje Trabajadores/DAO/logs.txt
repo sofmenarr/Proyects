@@ -1,0 +1,58 @@
+ INFO (2025-02-19  17:30:10): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:32:26): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:32:27): Validando ID de usuario: A1X7.
+ INFO (2025-02-19  17:36:56): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:37:51): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:37:51): Validando ID de usuario: A1X7.
+ ERROR (2025-02-19  17:38:31): No se ha podido guardar el fichaje: no such column: fecha
+ ERROR (2025-02-19  17:38:38): No se ha podido guardar el fichaje: no such column: fecha
+ ERROR (2025-02-19  17:38:40): No se ha podido guardar el fichaje: no such column: fecha
+ ERROR (2025-02-19  17:38:42): No se ha podido guardar el fichaje: no such column: fecha
+ INFO (2025-02-19  17:41:55): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:42:19): Usuario con ID: 'R6L3' encontrado en la base de datos.
+ INFO (2025-02-19  17:42:19): Validando ID de usuario: R6L3.
+ INFO (2025-02-19  17:42:28): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:42:39): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:42:39): Validando ID de usuario: A1X7.
+ ERROR (2025-02-19  17:42:42): No se ha podido guardar el fichaje: no such column: apellidos
+ INFO (2025-02-19  17:44:42): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:44:44): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:44:45): Validando ID de usuario: A1X7.
+ INFO (2025-02-19  17:44:54): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  17:45:39): Usuario A1X7 ha realizado un fichaje de salida.
+ INFO (2025-02-19  17:46:07): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:46:10): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:46:10): Validando ID de usuario: A1X7.
+ INFO (2025-02-19  17:46:20): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  17:49:29): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:49:40): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:49:41): Validando ID de usuario: A1X7.
+ ERROR (2025-02-19  17:49:44): No se ha podido guardar el fichaje: Cannot operate on a closed cursor.
+ INFO (2025-02-19  17:51:50): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:51:52): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:51:52): Validando ID de usuario: A1X7.
+ INFO (2025-02-19  17:52:01): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  17:59:30): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:59:37): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  17:59:41): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  17:59:41): Validando ID de usuario: A1X7.
+ ERROR (2025-02-19  18:00:00): No se ha podido guardar el fichaje: database is locked
+ INFO (2025-02-19  18:04:42): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  18:04:48): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  18:04:48): Validando ID de usuario: A1X7.
+ INFO (2025-02-19  18:04:58): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  18:08:53): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  18:09:41): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  18:09:41): Validando ID de usuario: A1X7.
+ INFO (2025-02-19  18:09:45): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  18:10:54): Usuario A1X7 ha realizado un fichaje de salida.
+ INFO (2025-02-19  18:11:05): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  18:11:07): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  18:23:54): Conexion establecida correctamente con la base de datos.
+ INFO (2025-02-19  18:24:00): Usuario con ID: 'A1X7' encontrado en la base de datos.
+ INFO (2025-02-19  18:24:01): Validando ID de usuario: A1X7.
+ WARNING (2025-02-19  18:24:05): Usuario A1X7 intentó fichar entrada sin haber fichado salida.
+ INFO (2025-02-19  18:24:07): Usuario A1X7 ha realizado un fichaje de salida.
+ WARNING (2025-02-19  18:24:10): Usuario A1X7 intentó fichar salida sin haber fichado entrada.
+ INFO (2025-02-19  18:24:13): Usuario A1X7 ha realizado un fichaje de entrada.
+ INFO (2025-02-19  18:24:15): Usuario A1X7 ha realizado un fichaje de salida.
