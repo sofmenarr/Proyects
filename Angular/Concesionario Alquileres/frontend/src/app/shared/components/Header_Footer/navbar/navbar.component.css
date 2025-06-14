@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background: #fff;
+  box-shadow: 0 3px 18px 0 rgba(108, 92, 231, 0.13);
+  border-radius: 0 0 14px 14px;
+  padding: 0.375rem 1.5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  border: 1.9px solid #5937E0;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52.5px;
+  margin-bottom: 0;
+  animation: fadeInDown 0.8s ease-out;
+}
+
+/* Remove animation classes */
+.navbar.hidden,
+.navbar.overlay,
+.navbar.instant-hide {
+  transform: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.navbar-brand img:last-child {
+  margin-top: 0.3rem;
+  margin-left: 0.15rem;
+}
+
+.center-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.navbar-nav .nav-link {
+  color: #6c5ce7;
+  font-size: 0.81rem;
+  margin: 0 0.225rem;
+  border-radius: 999px;
+  padding: 0.26rem 0.975rem;
+  position: relative;
+  transition: color 0.18s, background 0.18s, box-shadow 0.18s;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1.5px solid #6c5ce7;
+  box-shadow: 0 1.5px 6px 0 rgba(108, 92, 231, 0.07);
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: rgba(108, 92, 231, 0.1);
+  margin-right: 0.56rem;
+  color: #6c5ce7;
+  transition: all 0.3s ease;
+}
+
+.nav-icon i {
+  font-size: 0.75rem;
+}
+
+.navbar-nav .nav-link:hover .nav-icon,
+.navbar-nav .nav-link.active .nav-icon {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  transform: rotate(360deg);
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+  color: #fff;
+  background: #6c5ce7;
+  border-color: #6c5ce7;
+  box-shadow: 0 3px 12px 0 rgba(108, 92, 231, 0.18);
+}
+
+.ms-auto {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  margin-left: 0;
+}
+
+.ms-auto .nav-link {
+  color: #fff;
+  background: #6c5ce7;
+  border-radius: 4.5px;
+  padding: 0.26rem 0.825rem;
+  margin-left: 0.375rem;
+  font-size: 0.81rem;
+  font-weight: 600;
+  transition: background 0.18s, color 0.18s;
+  border: none;
+  box-shadow: none;
+}
+
+.ms-auto .nav-link i {
+  font-size: 0.75rem;
+}
+
+.ms-auto .nav-link:hover {
+  background: #ff9800;
+  color: #fff;
+}
+
+.navbar-toggler {
+  border: none;
+  background: #f3f0fa;
+  border-radius: 6px;
+  padding: 0.3rem 0.45rem;
+}
+
+.navbar-toggler-icon {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 0 1.5px #6c5ce7;
+}
+
+/* Eliminar el padding-top del body ya que no es necesario por defecto */
+body {
+  padding-top: 60px;
+}
+
+@media (max-width: 1100px) {
+  .navbar {
+    padding: 0.375rem 0.525rem;
+    border-radius: 0 0 9px 9px;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: unset;
+  }
+  .center-nav {
+    justify-content: center;
+    margin-top: 0.375rem;
+    margin-bottom: 0.375rem;
+  }
+  .center-nav .navbar-nav {
+    justify-content: center;
+    width: 100%;
+  }
+  .navbar-nav .nav-link {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+  }
+  
+  /* Ajustes para los iconos en móvil */
+  .nav-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 0.375rem;
+  }
+  
+  .nav-icon i,
+  .ms-auto .nav-link i {
+    font-size: 0.675rem;
+  }
+}
+
+.modal-login-bg,
+.fondo-modal {
+  z-index: 1050;
+}
+
+.welcome-text {
+  color: #6c5ce7 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.welcome-text i {
+  color: #6c5ce7;
+  font-size: 0.9rem;
+}
